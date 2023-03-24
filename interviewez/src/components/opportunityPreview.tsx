@@ -8,8 +8,11 @@ import { CardContent, Typography } from '@mui/material';
 const card = (
     <React.Fragment>
         <CardContent>
-            <Typography variant='h6' component='div'>
-                COMPANY - ROLE
+            <Typography variant='h5' component='div'>
+                ROLE
+            </Typography>
+            <Typography variant='body1' component='div'>
+                COMPANY COMPANY COMPANY
             </Typography>
             <Typography variant='body2' component='div'>
                 STATUS
