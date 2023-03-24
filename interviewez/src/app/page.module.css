@@ -13,8 +13,25 @@
 
 .columnCard {
   display: flex;
+  align-items: stretch;
   width: 95%;
   margin: 0 auto;
+
+}
+
+.opportunityList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.opportunityCard {
+  width: 100%;
+  height: 200px;
 }
 
 .description {
