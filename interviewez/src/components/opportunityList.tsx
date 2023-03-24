@@ -12,7 +12,8 @@ export default function OpportunityList() {
         <OpportunityPreview />
         <OpportunityPreview />
         <OpportunityPreview />
-
+        <OpportunityPreview />
+        <OpportunityPreview />
     </div>
   )
 }

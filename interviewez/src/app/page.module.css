@@ -4,11 +4,12 @@
   justify-content: space-between;
   align-items: stretch;
   padding: 6rem 4rem 3rem 4rem;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .griditem {
   display: flex;
+  max-height: 100%;
 }
 
 .columnCard {
@@ -16,22 +17,23 @@
   align-items: stretch;
   width: 95%;
   margin: 0 auto;
-
+  max-height: 100%;
 }
 
 .opportunityList {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   gap: 10px;
   width: 100%;
-  overflow-y: auto;
+  max-height: 100%;
+  overflow-y: scroll;
   padding: 1rem;
 }
 
 .opportunityCard {
+  display: flex;
   width: 100%;
-  height: 200px;
+  min-height: 150px;
 }
 
 .description {
