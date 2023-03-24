@@ -1,7 +1,7 @@
 "use client"
 
 import './globals.css'
-import NavBar from './navbar'
+import NavBar from '../components/navbar'
 
 export const metadata = {
   title: 'Create Next App',
@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <NavBar />
         <div>{children}</div>
-        </body>
+      </body>
     </html>
   )
 }
