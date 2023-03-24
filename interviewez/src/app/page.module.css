@@ -9,20 +9,12 @@
 
 .griditem {
   display: flex;
-  justify-content: space-between;
 }
 
-.leftCard {
+.columnCard {
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
   width: 95%;
-}
-.rightCard {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  width: 95%;
+  margin: 0 auto;
 }
 
 .description {
